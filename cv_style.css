@@ -1,0 +1,62 @@
+:root {
+    --bg: #f8f8f8;
+    --text: #222;
+    --text-secondary: #555;
+    --accent: #d32f2f;
+    --accent-hover: #b71c1c;
+}
+
+body.dark-mode {
+    --bg: #000000;
+    --text: #eee;
+    --text-secondary: #ddd;
+    --accent: #ff5252;
+    --accent-hover: #ff1744;
+}
+
+.cv {
+    background-color: var(--bg);
+    color: var(--text);
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cv h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.cv p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.link-cv {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: var(--accent);
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.link-cv i {
+    margin-right: 0.5rem;
+}
+
+.link-cv:hover {
+    background-color: var(--accent-hover);
+    transform: translate(-2px) scale(1.03);
+}

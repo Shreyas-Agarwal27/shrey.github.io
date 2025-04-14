@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script defer src="beacon.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="navbar">
+
+        <a href="index.html"><img src="photos/logo_light.png" alt="Logo" width="50" height="50" id="logo"></a>
+        
+        <div class="top-bar">
+        <div class="social-icons">
+            <a href="https://github.com/Shreyas-Agarwal27" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/shreyyayy_" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:shreyas.agarwal@students.iiit.ac.in"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <div class="dropdown">
+            <button id="theme-toggle">
+                <i id="theme-icon" class="fa-solid fa-sun"></i> Theme
+            </button>            
+            <div class="dropdown-content" id="theme-options">
+                <a href="#" id="light-mode"><i class="fa-solid fa-sun"></i> Light Mode</a>
+                <a href="#" id="dark-mode"><i class="fa-solid fa-moon"></i> Dark Mode</a>
+                <a href="#" id="auto-mode"><i class="fa-solid fa-adjust"></i> Auto</a>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <h1 class="lightsaber-name">About Me <span class="saber-line"></span></h1>
+        <p class="intro-text">
+            I'm Shreyas Agarwal, a passionate programmer, amateur guitarist and always eager to learn something new.
+            I believe in learning by doing, and every challenge is an opportunity to level up.
+        </p>
+        
+
+        <div class="about-images">
+
+            <div class="about-row">
+                <div class="about-text">
+                    <p>
+                        I was born in <strong>Noida, NCR</strong>, however, I spent most of my life in Bangalore, Karnataka.
+                        I did my schooling at <strong>Whitefield Global School</strong>.
+                        In 9th standard I joined <strong>Allen Coaching center</strong>.
+                        Currently, I'm pursuing my higher education in <strong>IIIT Hyderabad</strong>, majoring in <strong>Computer Science</strong>. 
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="photos/profile.png" alt="My pic" class="profile-pic">
+                </div>
+            </div>
+        
+            <div class="about-row">
+                <div class="about-text">
+                    <p>
+                        Noida (New Okhla Industrial Development Authority) is a planned city in Uttar Pradesh and part of the National Capital Region (NCR) of India.
+                        Known for its rapid urban development, tech parks, and educational institutions, Noida has become a growing hub for IT, startups, and innovation.
+                    </p>
+                </div>
+                <div class="about-image local-photos">
+                    <img src="photos/city1.jpg" alt="Birthplace Photo 1">
+                    <img src="photos/city2.webp" alt="Birthplace Photo 2">
+                    <img src="photos/botanical_garden.avif" alt="Botanical Garden">
+                    <img src="photos/golf_course.jpg" alt="Golf Course">
+                </div>
+            </div>
+        
+        </div>
+
+            <div id="holo-message" class="hologram">
+                <h2>Achievements</h2>
+                <p>Third place in Megathon 2024</p>
+                <p>JEE Main AIR: 839</p>
+                <p>JEE Advanced AIR: 2729</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me!</title>
+    <title>Shreyas' Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="beacon.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
 </head>
 <body>
-      <h1>Shreyas Agarwal</h1>
+
+    <div class="navbar">
+
+        <a href="index.html"><img src="photos/logo_light.png" alt="Logo" width="50" height="50" id="logo"></a>
+        
+        <div class="top-bar">
+        <div class="social-icons">
+            <a href="https://github.com/Shreyas-Agarwal27" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/shreyyayy_" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:shreyas.agarwal@students.iiit.ac.in"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <div class="dropdown">
+            <button id="theme-toggle">
+                <i id="theme-icon" class="fa-solid fa-sun"></i> Theme
+            </button>            
+            <div class="dropdown-content" id="theme-options">
+                <a href="#" id="light-mode"><i class="fa-solid fa-sun"></i> Light Mode</a>
+                <a href="#" id="dark-mode"><i class="fa-solid fa-moon"></i> Dark Mode</a>
+                <a href="#" id="auto-mode"><i class="fa-solid fa-adjust"></i> Auto</a>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <h1 class = "lightsaber-name"><span class="wave">👋</span> Hello there! I am Shreyas Agarwal<span class="saber-line"></span></h1>
+        <p></p>
+    </div>
+
+
+    <section class="panels">
+        <div class="panel" data-color="purple" onclick="location.href='about.html'">
+            <span class="panel-title">About Me</span>
+            <div class="panel-content">
+                <p>Get to know more about me!</p>
+            </div>
+        </div>
+    
+        <div class="panel" data-color="green" onclick="location.href='cv.html'">
+            <span class="panel-title">My CV</span>
+            <div class="panel-content">
+                <p>A record of my achievements this far.</p>
+            </div>
+        </div>
+    
+        <div class="panel" data-color="red" onclick="location.href='technical.html'">
+            <span class="panel-title">Technical skills</span>
+            <div class="panel-content">
+                <p>See my technical skills and the projects I've worked on.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
 </body>
 </html>
