@@ -2,8 +2,8 @@ function analyzeText() {
     const text = document.getElementById("textInput").value;
     const output = document.getElementById("output");
 
-    if (text.length === 0) {
-        output.innerText = "Please enter some text.";
+    if (text.length < 10000) {
+        output.innerText = "Please enter more text.";
         return;
     }
 
